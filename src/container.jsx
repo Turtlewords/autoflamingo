@@ -1,5 +1,5 @@
 import React from 'react'
-import Hero from './hero'
+import { Header, Hero } from './header_hero'
 import HomeNav from './home_nav'
 
 function Container() {
