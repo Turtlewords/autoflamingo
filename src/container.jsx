@@ -5,7 +5,7 @@ import HomeNav from './home_nav'
 function Container() {
     return (
         <div className="container">
-          <Hero />
+          <Header />
           <HomeNav />
         </div>
     )
