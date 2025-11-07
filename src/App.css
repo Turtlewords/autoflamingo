@@ -73,7 +73,7 @@ h1 {
   width: 28px;
 }
 
-.header-socials-icon:hover {
+.header-socials-icon:hover, .footer-socials-icon:hover {
   opacity: 0.6
 }
 
@@ -89,7 +89,7 @@ h1 {
 
 .footer-socials {
   display: flex;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 
