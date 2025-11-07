@@ -1,8 +1,8 @@
 import React from 'react'
 
-function Header() {
+export function Header() {
     return (
-        <header>
+        <header className="header">
             <nav className="header-nav">
                 <ul className="header-nav-list">
                     <li className="header-nav-item"><a className="header-nav-link">Shows</a></li>
@@ -20,7 +20,7 @@ function Header() {
     )
 }
 
-function Hero() {
+export function Hero() {
 
     return (
         <div className="hero">
@@ -30,4 +30,3 @@ function Hero() {
     )
 }
 
-export default Hero;

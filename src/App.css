@@ -40,6 +40,30 @@ h1 {
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.header-nav-link {
+  color: whitesmoke
+}
+
+.header-nav-list {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-socials {
+  display: flex;
+  gap: 1rem;
+}
+
+.header-socials-icon {
+  width: 28px;
+}
+
 .nav-item {
   text-decoration: none;
 }
