@@ -35,6 +35,10 @@ h1 {
              0px 18px 23px rgba(0,0,0,0.1);
 }
 
+.title-link {
+  text-decoration: none;
+}
+
 .hero-img {
   max-width: 300px;
   border-radius: 100%;
@@ -53,6 +57,7 @@ h1 {
 .header-nav-link {
   color: whitesmoke;
   cursor: pointer;
+  text-decoration: none;
 }
 
 .header-nav-link:hover {
