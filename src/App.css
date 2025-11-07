@@ -22,6 +22,7 @@ body {
   display: flex;
   flex-direction: column;
   gap: 2rem;
+  position: relative;
  
 }
 
@@ -44,13 +45,21 @@ h1 {
   display: flex;
   align-items: center;
   justify-content: space-around;
+  position: fixed;
+  top: 0px;
+  width: 100%;
 }
 
 .header-nav-link {
-  color: whitesmoke
+  color: whitesmoke;
+  cursor: pointer;
 }
 
+.header-nav-link:hover {
+  opacity: 0.6
+}
 .header-nav-list {
+  padding: 0;
   display: flex;
   gap: 1rem;
 }
@@ -60,9 +69,29 @@ h1 {
   gap: 1rem;
 }
 
-.header-socials-icon {
+.header-socials-icon, .footer-socials-icon {
   width: 28px;
 }
+
+.header-socials-icon:hover {
+  opacity: 0.6
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  padding: 1rem;
+
+}
+
+.footer-socials {
+  display: flex;
+  gap: 1rem;
+}
+
 
 .nav-item {
   text-decoration: none;

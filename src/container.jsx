@@ -1,11 +1,12 @@
 import React from 'react'
-import { Header, Hero } from './header_hero'
+import { Header, Footer } from './header_footer'
 
 
 function Container() {
     return (
         <div className="container">
           <Header />
+          <Footer />
         </div>
     )
 }
