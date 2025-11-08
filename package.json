@@ -9,11 +9,11 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-  "deploy": "gh-pages -d build",
+    "deploy": "npm --prefix src run deploy",
   "start": "react-scripts start"
   
   },
-  "homepage": "https://turtlewords.github.io/autoflamingo/",
+  "homepage": "https://turtlewords.github.io/autoflamingo",
   "dependencies": {
     "hamburger-react": "^2.5.2",
     "react": "^19.1.1",
