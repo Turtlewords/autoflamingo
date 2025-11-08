@@ -13,7 +13,7 @@
   "start": "react-scripts start"
   
   },
-  "homepage": "https://github.com/Turtlewords/autoflamingo",
+  "homepage": "https://turtlewords.github.io/autoflamingo/",
   "dependencies": {
     "hamburger-react": "^2.5.2",
     "react": "^19.1.1",
