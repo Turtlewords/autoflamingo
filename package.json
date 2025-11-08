@@ -1,5 +1,6 @@
 {
   "name": "autoflamingo",
+  "homepage": "https://turtlewords.github.io/autoflamingo",
   "private": false,
   "version": "0.0.0",
   "type": "module",
@@ -9,11 +10,10 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "npm --prefix src run deploy",
+    "deploy": "gh-pages -d dist",
   "start": "react-scripts start"
   
   },
-  "homepage": "https://turtlewords.github.io/autoflamingo",
   "dependencies": {
     "hamburger-react": "^2.5.2",
     "react": "^19.1.1",
