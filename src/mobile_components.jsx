@@ -9,7 +9,7 @@ export function MobileHeader() {
 
     return (
             <header className="mobile-header">
-                <img onClick={handleClick} className="hamburger" src="src/assets/hamburger.svg" alt="menu" />
+                <img onClick={handleClick} className="hamburger" src="./public/assets/hamburger.svg" alt="menu" />
                 <Link className="title-link" to="/">
                   <h1 className="mobile-title">autoflamingo</h1>
                 </Link>
