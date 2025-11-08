@@ -85,6 +85,7 @@ h1 {
 }
 
 .hero-img {
+  width: 85%;
   max-width: 600px;
   border-radius: 12px;
   box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
@@ -243,4 +244,68 @@ h1 {
 
 .music-service {
   font-size: 2rem;
+}
+
+
+/* ----- Mobile ----- */
+
+.mobile-header {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  position: relative;
+}
+
+.hamburger {
+  width: 40px;
+  margin-right: auto;
+  position: absolute;
+  top: 28%;
+  left: .75rem;
+}
+
+.mobile-menu {
+  position: fixed;
+  left: 0;
+  top: 0;
+  opacity: 0;
+  width: 50vw;
+  height: 100vh;
+  background-color: whitesmoke;
+  z-index: 3;
+  transition: opacity 2s;
+}
+
+.mobile-nav-list {
+  color: #011627;
+}
+
+.close {
+  width: 40px;
+}
+
+/* ----- Media Queries ----- */
+
+@media (max-width: 768px) {
+  .header {
+    display: none;
+  }
+
+  .mobile-header {
+    display: flex;
+  }
+}
+
+@media (min-width: 768px) {
+  .header {
+    display: flex
+  }
+
+  .mobile-header {
+    display: none;
+  }
+
+  .mobile-menu {
+    display: none;
+  }
 }
