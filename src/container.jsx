@@ -8,9 +8,9 @@ function Container() {
       <BrowserRouter>
         <div className="container">
           <Header />
-          <main className="main">
-            <Outlet />
-          </main>
+          
+          
+          
           <Footer />
         </div>
       </BrowserRouter>

@@ -10,7 +10,7 @@ function HomeNav() {
     <BrowserRouter>
       <nav className="home-nav">
         <ul className="nav-list">
-            <Link className="nav-link" to="/shows">Shows</Link>
+            
             <Link className="nav-link" to="/music">Music</Link>
         </ul>
       </nav>

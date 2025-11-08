@@ -2,7 +2,8 @@ import React from 'react'
 
 function Shows(){
     return (
-        <div className="shows-container">
+        <div className="shows-container fade-in">
+          <h2 className="sub-header">Shows</h2>
             <ul className="show-list">
               <li className="shows-item">
                 <p className="shows-date">NOV 28  FRI</p>
