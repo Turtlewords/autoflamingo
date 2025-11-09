@@ -4,6 +4,9 @@ import Music from './music'
 import Shows from './shows'
 import Home from './home'
 import Contact from './contact'
+import ig from '/assets/ig_white.jpg'
+import spotify from '/assets/spotify_white.jpg'
+import mail from '/assets/email_white.jpg'
 
 
 export function Header() {
@@ -22,9 +25,9 @@ export function Header() {
             </Link>
             
             <div className="header-socials">
-                <a href="https://www.instagram.com/autoflamingogogo/?hl=en" target="_blank"><img className="header-socials-icon" src="/assets/ig_white.svg"/></a>
-                <a href="https://open.spotify.com/artist/5tibIorGHUrWe3Jxjo2N4i?si=ig8uBWO4TKynGoRHQWxhjw" target="_blank"><img className="header-socials-icon" src="/assets/spotify_white.svg"/></a>
-                <a href="mailto:thisisautoflamingo@gmail.com"><img className="header-socials-icon" src="/assets/email_white.svg"/></a>
+                <a href="https://www.instagram.com/autoflamingogogo/?hl=en" target="_blank"><img className="header-socials-icon" src={ig}/></a>
+                <a href="https://open.spotify.com/artist/5tibIorGHUrWe3Jxjo2N4i?si=ig8uBWO4TKynGoRHQWxhjw" target="_blank"><img className="header-socials-icon" src={spotify}/></a>
+                <a href="mailto:thisisautoflamingo@gmail.com"><img className="header-socials-icon" src={mail}/></a>
             </div>
         </header>
         
@@ -43,9 +46,9 @@ export function Footer() {
     return (
         <footer className="footer">
             <div className="footer-socials">
-                <a href="https://www.instagram.com/autoflamingogogo/?hl=en" target="_blank"><img className="footer-socials-icon" src="/assets/ig_white.svg"/></a>
-                <a href="https://open.spotify.com/artist/5tibIorGHUrWe3Jxjo2N4i?si=ig8uBWO4TKynGoRHQWxhjw" target="_blank"><img className="footer-socials-icon" src="./autoflamingo/public/assets/spotify_white.svg"/></a>
-                <a href="mailto:thisisautoflamingo@gmail.com"><img className="footer-socials-icon" src="/assets/email_white.svg"/></a>
+                <a href="https://www.instagram.com/autoflamingogogo/?hl=en" target="_blank"><img className="footer-socials-icon" src={ig}/></a>
+                <a href="https://open.spotify.com/artist/5tibIorGHUrWe3Jxjo2N4i?si=ig8uBWO4TKynGoRHQWxhjw" target="_blank"><img className="footer-socials-icon" src={spotify}/></a>
+                <a href="mailto:thisisautoflamingo@gmail.com"><img className="footer-socials-icon" src={mail}/></a>
             </div>
         </footer>
     )

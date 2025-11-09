@@ -1,4 +1,7 @@
 import { Link } from 'react-router-dom';
+import hamburger from '/assets/hamburger.svg'
+import close from '/assets/close_dark.svg'
+
 
 export function MobileHeader() {
     
@@ -15,7 +18,7 @@ export function MobileHeader() {
 
     return (
             <header className="mobile-header">
-                <img onClick={handleClick} className="hamburger" src="/assets/hamburger.svg" alt="menu" />
+                <img onClick={handleClick} className="hamburger" src={hamburger} alt="menu" />
                 <Link className="title-link" to="/" onClick={closeMenu}>
                   <h1 className="mobile-title">autoflamingo</h1>
                 </Link>
@@ -37,7 +40,7 @@ export function MobileMenu() {
 
     return (
             <div className="mobile-menu">
-                <img className="close" src="/assets/close_dark.svg" onClick={handleClick}/>
+                <img className="close" src={close} onClick={handleClick}/>
                 <nav className="mobile-nav">
                     <ul className="mobile-nav-list">
                         <li className="mobile-nav-item" onClick={handleClick}><Link className="mobile-nav-link" to="/shows">Shows</Link></li>
