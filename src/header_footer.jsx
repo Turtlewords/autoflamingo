@@ -4,9 +4,9 @@ import Music from './music'
 import Shows from './shows'
 import Home from './home'
 import Contact from './contact'
-import ig from '/assets/ig_white.jpg'
-import spotify from '/assets/spotify_white.jpg'
-import mail from '/assets/email_white.jpg'
+import ig from '/assets/ig_white.svg'
+import spotify from '/assets/spotify_white.svg'
+import mail from '/assets/email_white.svg'
 
 
 export function Header() {

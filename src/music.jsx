@@ -1,4 +1,4 @@
-import spotify from '/assets/spotify_white.jpg'
+import spotify from '/assets/spotify_white.svg'
 
 
 function Music() {
