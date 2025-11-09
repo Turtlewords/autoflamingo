@@ -20,7 +20,7 @@ export function Header() {
                     <li className="header-nav-item"><Link className="header-nav-link" to="/music">Music</Link></li>
                 </ul>
             </nav>
-            <Link className="title-link" to="/">
+            <Link className="title-link" to="/autoflamingo/">
               <h1 className="title">autoflamingo</h1>
             </Link>
             
@@ -32,7 +32,6 @@ export function Header() {
         </header>
         
         <Routes>
-            <Route path="/" element={<Home />}/>
             <Route path="/autoflamingo/" element={<Home />}/>
             <Route path="/shows" element={<Shows />}/>
             <Route path="/contact" element={<Contact />}/>
