@@ -20,7 +20,7 @@ export function Header() {
                     <li className="header-nav-item"><Link className="header-nav-link" to="/music">Music</Link></li>
                 </ul>
             </nav>
-            <Link className="title-link" to="/">
+            <Link className="title-link" to="/autoflamingo/">
               <h1 className="title">autoflamingo</h1>
             </Link>
             
