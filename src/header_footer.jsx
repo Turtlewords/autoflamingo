@@ -32,6 +32,8 @@ export function Header() {
         </header>
         
         <Routes>
+            <Route path="/" element={<Home />}/>
+            <Route path="/autoflamingo" element={<Home />}/>
             <Route path="/autoflamingo/" element={<Home />}/>
             <Route path="/shows" element={<Shows />}/>
             <Route path="/contact" element={<Contact />}/>

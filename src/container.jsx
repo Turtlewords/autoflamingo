@@ -5,7 +5,7 @@ import { BrowserRouter, Routes, Route, Link, Outlet } from 'react-router-dom';
 
 function Container() {
     return (
-      <BrowserRouter>
+      <BrowserRouter basename='/autoflamingo'>
         <div className="container">
           <MobileHeader />
           <Header />
