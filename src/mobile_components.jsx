@@ -1,20 +1,13 @@
 import { Link } from 'react-router-dom';
-import { useState } from 'react'
-
-
-const menu = document.querySelector(".mobile-menu")
 
 export function MobileHeader() {
 
     function handleClick() {
         const menu = document.querySelector(".mobile-menu")
-        // menu.style.display = "flex"
-        // menu.style.opacity = "1"
         menu.style.transform = "translateX(0)";
     }
 
     return (
-        <>
             <header className="mobile-header">
                 <img onClick={handleClick} className="hamburger" src="src/assets/hamburger.svg" alt="menu" />
                 <Link className="title-link" to="/">
@@ -22,19 +15,6 @@ export function MobileHeader() {
                 </Link>
                 
             </header>
-
-            {/* <style jsx="true">{`
-        
-            
-            .mobile-menu {
-               opacity: ${hamburgerOpen ? '1': '0'}
-            
-            }
-            `
-                }
-
-            </style> */}
-        </>
     )
 }
 
@@ -44,13 +24,10 @@ export function MobileMenu() {
     const handleClick = () => {
         
         const menu = document.querySelector(".mobile-menu")
-        // menu.style.opacity = "0"
-        // menu.style.display = "none"
         menu.style.transform = "translateX(-45vw)";
     }
 
     return (
-        <>
             <div className="mobile-menu">
                 <img className="close" src="src/assets/close_dark.svg" onClick={handleClick}/>
                 <nav className="mobile-nav">
@@ -61,18 +38,5 @@ export function MobileMenu() {
                     </ul>
                 </nav>
             </div>
-
-            {/* <style jsx="true">{`
-        
-            
-            .mobile-menu {
-               opacity: ${closeOpen ? '0': '1'}
-                
-            }
-            `
-                }
-
-            </style> */}
-        </>
     )
 }

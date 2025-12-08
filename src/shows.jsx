@@ -1,18 +1,10 @@
-import React from 'react'
 
 function Shows(){
     return (
         <div className="shows-container fade-in">
           <h2 className="sub-header">Shows</h2>
             <ul className="show-list">
-              <li className="shows-item">
-                <p className="shows-date">NOV 28  FRI</p>
-                <p className="shows-time">10:30 PM</p>
-                <a className="shows-venue" href="https://montrosesaloon.com/" target="_blank">Montrose Saloon</a>
-                
-                <a className="shows-link" href="https://www.eventim.us/event/Something-EasyThe-MagikistsAutoflamingo-Montrose-Saloon/668770?fbclid=IwY2xjawN4p05leHRuA2FlbQIxMABicmlkETFIdkM0TWlsblUyUlNlMDI4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmwLQxh6g1Du_2nVQY9t9RUyCMDmNAZL7KVyUoiCMPh31B837nDh4F8Dgpwz_aem_51c51UO_Nh7hJ9nYs1XEJg&brid=hPDzHplI-QC2bWDH42QhxQ" target="_blank">Tix</a>
-              </li>
-
+            
               <li className="shows-item">
                 <p className="shows-date">DEC 12  FRI</p>
                 <p className="shows-time">9:30 PM</p>
@@ -25,8 +17,15 @@ function Shows(){
                 <p className="shows-date">JAN 9  FRI</p>
                 <p className="shows-time">9 PM</p>
                 <a className="shows-venue" href="https://www.instagram.com/underground_lounge_chi/?hl=en" target="_blank">Underground Lounge</a>
-                
-                {/* <a className="shows-link" href="https://www.eventim.us/event/Something-EasyThe-MagikistsAutoflamingo-Montrose-Saloon/668770?fbclid=IwY2xjawN4p05leHRuA2FlbQIxMABicmlkETFIdkM0TWlsblUyUlNlMDI4c3J0YwZhcHBfaWQQMjIyMDM5MTc4ODIwMDg5MgABHmwLQxh6g1Du_2nVQY9t9RUyCMDmNAZL7KVyUoiCMPh31B837nDh4F8Dgpwz_aem_51c51UO_Nh7hJ9nYs1XEJg&brid=hPDzHplI-QC2bWDH42QhxQ" target="_blank">Tix</a> */}
+                <a className="shows-link" href="https://www.eventim.us/event/The-Suede-SceneBicycle-TricycleAutoflamingoEmbinamoose/672450" target="_blank">Tix</a>
+              </li>
+
+              <li className="shows-item">
+                <p className="shoes-date">Chicago Femme Rock Fest</p>
+                <p className="shows-date">Feb 15  SUN</p>
+                <p className="shows-time">7 PM</p>
+                <a className="shows-venue" href="https://www.instagram.com/underground_lounge_chi/?hl=en" target="_blank">Underground Lounge</a>
+                <a className="shows-link" href="https://www.eventim.us/event/CHICAGO-FEMMEROCK-FEST-Underground-Lounge/672899" target="_blank">Tix</a> 
               </li>
               
             </ul>
